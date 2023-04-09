@@ -1,0 +1,49 @@
+.Profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Profile .ProfileLogo{
+    width: 100px;
+    flex: 1 0 auto;
+    object-fit: contain;
+    margin: 30px 0;
+}
+
+.profileContainer{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.profileContainer h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.profileContainer h3{
+    margin-bottom: 5px;
+}
+
+.profileContainer input{
+    width: 99%;
+    margin: 9px 0;
+    height: 33px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.profileContainer button{    
+        height: 33px;
+        width: 100%;
+        background: #f0c14b;
+        border-color: #a88734 #9c7e31 #846a29;
+        cursor: pointer;
+        color:#333;
+        border-radius: 10px;
+        margin-top: 14px;    
+}
